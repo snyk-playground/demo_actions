@@ -1,0 +1,44 @@
+{
+    "name": "ts-link-akta",
+    "version": "0.2.0",
+    "engines": {
+      "node" : ">=6.12.3"
+    },
+    "description": "an AKTA link. TODO should this be generic repo for many links?",
+    "keywords": [
+      "opc",
+      "IoT",
+      "tetrascience"
+    ],
+    "author": "TetraScience",
+    "license": "ISC",
+    "dependencies": {
+      "args": "^3.0.4",
+      "async": "^2.5.0",
+      "bluebird": "^3.5.0",
+      "fast-xml-parser": "^2.8.3",
+      "joi": "^11.1.1",
+      "lodash": "^4.17.4",
+      "node-opcua": "^0.2.1",
+      "node-opcua-data-model": "^0.2.1",
+  
+      "promise-retry": "^1.1.1",
+      "ramda": "^0.25.0",
+      "use-strict": "1.0.1",
+      "uuid": "^3.1.0",
+      "xml2js": "^0.4.19"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "chai-as-promised": "^6.0.0",
+      "co-mocha": "^1.2.0",
+      "eslint": "^3.19.0",
+      "mocha": "^3.2.0",
+      "sinon": "^4.1.2"
+    },
+    "scripts": {
+      "start": "node index.js",
+      "lint": "./node_modules/.bin/eslint . --ext .jsx --ext .js",
+      "test": "NODE_ENV=test mocha --recursive --timeout 1000 --require co-mocha"
+    }
+  }
