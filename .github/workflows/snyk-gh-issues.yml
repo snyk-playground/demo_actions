@@ -1,7 +1,6 @@
-name: snyk-labs action example - Snyk Issues to Github Issues
-on: 
+name: snyk-labs/action example - Snyk Issues to Github Issues
+on: workflow_dispatch
   # - push
-  workflow_dispatch:
 jobs:
   security:
     runs-on: ubuntu-latest
