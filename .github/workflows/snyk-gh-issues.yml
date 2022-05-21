@@ -1,6 +1,6 @@
 name: Snyk Issues to Github Issues
 on: 
-  push:
+  push: 
     branches:
       - main
 jobs:
