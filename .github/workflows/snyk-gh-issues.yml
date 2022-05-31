@@ -2,7 +2,7 @@ name: Snyk Issues to Github Issues
 on: 
   push: 
     branches:
-      - main
+      - main 
 jobs:
   security:
     runs-on: ubuntu-latest
