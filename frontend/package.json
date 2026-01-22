@@ -13,12 +13,12 @@
     "author": "TetraScience",
     "license": "ISC",
     "dependencies": {
-      "args": "^3.0.4",
+      "args": "^4.0.0",
       "async": "^2.5.0",
       "bluebird": "^3.5.0",
       "fast-xml-parser": "^2.8.3",
       "joi": "^11.1.1",
-      "lodash": "^4.17.4",
+      "lodash": "^4.17.23",
       "node-opcua": "^0.2.1",
       "node-opcua-data-model": "^0.2.1",
   
